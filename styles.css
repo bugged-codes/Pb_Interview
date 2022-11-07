@@ -25,9 +25,9 @@ hr {
     justify-content: space-evenly;
     align-items: flex-end;
     width: 90%;
-    height: 80px;
-    margin: 0.5rem auto;
-    margin-bottom: 5rem;
+    height: 90px;
+    margin: 0.5rem auto 0 auto;
+    /* margin-bottom: 5rem;  */
     transition: scale 0.5s ease-in 0s;
 }
 
@@ -48,6 +48,11 @@ hr {
     transform: scale(110%);
 }
 
+#next-nav {
+    width: 100%;
+    background-color: rgb(25 25 25 / 70%);
+    height: 60px;
+}
 
 .heading-day {
     text-decoration: underline;
@@ -107,7 +112,9 @@ pre:hover,
 #ans43 p:hover,
 #ans44 p:hover,
 #ans45 p:hover,
-p code {
+p code,
+ul code,
+ol code {
     transform: none;
     text-shadow: none;
 }
@@ -244,7 +251,7 @@ code {
 }
 
 #div-ans34:hover {
-    transform: scaleX(150%);
+    transform: scaleX(150%) translateX(17px);
 }
 
 #div-ans35 {
