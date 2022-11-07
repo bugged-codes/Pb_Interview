@@ -11,7 +11,7 @@ hr {
 #nav {
     width: 100%;
     height: fit-content;
-    background-color: rgb(25 25 25 / 70%);
+    background-color: rgb(25 25 25 / 65%);
     /* margin: -1rem 0rem; */
     position: sticky;
     top: 0;
@@ -87,7 +87,7 @@ p:hover,
 ol:hover,
 ul:hover {
     /*! transform: scale(103%); */
-    text-shadow: 4px -3px 2px darkblue;
+    text-shadow: 0px 7px 5px #000038db;
 }
 
 pre:hover,
@@ -166,6 +166,11 @@ code {
 .day3-table td {
     padding: 7px;
     text-align: left;
+}
+
+.h4-ans18 {
+    display: inline;
+    line-height: 1.5em;
 }
 
 /* *************** CSS Day-1 *************** */
