@@ -1238,7 +1238,24 @@ CSS Code=>
                 <p>
                     <span class="span-ans">
                         Ans:-</span>
+                    In CSS, a CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinators as they combine other selectors in a way that gives them a useful relationship to each other and the location of content in the document.
+                    <br>
+                    There are four types of combinators available in CSS:
                 </p>
+                <ul style="list-style-type: disc;">
+                    <li class="ans46-list">
+                        <b>Descendant Combinator : </b>These are represented by a single space (<code> </code>) character. It combines two selectors such that elements matched by the second selector are selected if they have an ancestor (parent, parent's parent, parent's parent's parent, etc.) element matching the first selector.Basically, this selector is used to select all the child elements of the specified tag. Selectors that utilize a descendant combinator are called descendant selectors
+                    </li>
+                    <li class="ans46-list">
+                        <b>Child Combinator : </b>These are represented by (<code>&gt;</code>) character placed between two CSS selectors. It matches only those elements matched by the second selector that are the direct children of elements matched by the first. Descendant elements further down the hierarchy don't match. 
+                    </li>
+                    <li class="ans46-list">
+                        <b>Adjecent Sibling Combinator : </b>These are represented by (<code>+</code>) character placed between two CSS selectors. It matches only those elements matched by the second selector that are the next sibling element of the first selector. Basically, it's used to select an element that is directly after another specific element. Sibling elements must have the same parent element, and "adjacent" means "immediately following".
+                    </li>
+                    <li class="ans46-list">
+                        <b>General sibling combinator : </b>These are represented by (<code>~</code>) character placed between two CSS selectors.  It's used to select the element that follows the first selector element and also share the same parent as the first selector element. This can be used to select a group of elements that share the same parent element.
+                    </li>
+                </ul>
             </div>
             <br>
             <h2 class="question" id="que47">
@@ -1248,7 +1265,32 @@ CSS Code=>
                 <p>
                     <span class="span-ans">
                         Ans:-</span>
+                    In CSS, a Pseudo class is a keyword which can be added to slector that's used to define the special state of an element. It can be combined with a CSS selector to add an effect to existing elements based on their states.
                 </p>
+                <pre>selector: pseudo-class{
+    property: value;
+}</pre>
+                <p>
+                    There are many Pseudo classes in CSS but the ones which are most commonly used are as follows:
+                </p>
+                <ul style="list-style-type: disc;">
+                    <li class="ans47-list">
+                        <code>
+                            :hover</code> : This pseudo-class is used to add special effect to an element when our mouse pointer is over it.
+                    </li>
+                    <li class="ans47-list">
+                        <code>
+                            :active</code> : This pseudo-class is used to select an element which is activated when the user clicks on it.
+                    </li>
+                    <li class="ans47-list">
+                        <code>
+                            :focus</code> : This pseudo-class is used to select an element which is currently focused by the user. It works on user input elements used in forms and is triggered as soon as the user clicks on it.
+                    </li>
+                    <li class="ans47-list">
+                        <code>
+                            :visited</code> : This pseudo-class is used to select the links which have been already visited by the user.
+                    </li>
+                </ul>
             </div>
             <br>
         </section>

@@ -1,7 +1,6 @@
 body {
     color: rgb(230, 230, 230);
     background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 0 2rem;
 }
 
@@ -87,7 +86,7 @@ ul {
 p:hover,
 ol:hover,
 ul:hover {
-    transform: scale(103%);
+    /*! transform: scale(103%); */
     text-shadow: 4px -3px 2px darkblue;
 }
 
@@ -242,7 +241,6 @@ code {
     width: 100px;
     height: 100px;
     background-color: orangered;
-    transition: all 1s ease-in-out 0s;
     color: black;
     text-align: center;
     padding: 35px 0 0 0;
@@ -251,6 +249,7 @@ code {
 }
 
 #div-ans34:hover {
+    transition: transform 1s ease-in-out 0s;
     transform: scaleX(150%) translateX(17px);
 }
 
